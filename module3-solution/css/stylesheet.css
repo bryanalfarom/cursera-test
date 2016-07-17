@@ -1,0 +1,258 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.navbar-brand p {
+	font-size: 30px;
+	color: grey;
+}
+
+#nav-list {
+	margin: 0 10px auto auto;
+}
+
+#nav-list a {
+	text-align: center;
+	color: red;
+}
+
+#nav-list a:hover {
+	background: blue;
+}
+
+
+
+@media (min-width: 992px){
+
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #0000FF;
+	margin:  10px 0 30px 0;
+}
+
+#Section1 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 31%;
+	height: 153px;
+	float: left;
+}
+
+
+#Section2 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 31%;
+	height: 153px;
+	float: left;
+}
+
+#Section3 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 31%;
+	height: 153px;
+	float: left;
+}
+
+#Title1 {
+	background-color: grey;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title2 {
+	background-color: #0090FF;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title3 {
+	background-color: red;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+}
+
+.Content {
+	clear: both;
+	padding: 10px 10px 10px 10px;
+	height: 116px;
+	overflow: hidden;
+
+}
+}
+
+/****Tablet****/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #0000FF;
+	margin:  10px 0 30px 0;
+}
+
+#Section1 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 47%;
+	height: 153px;
+	float: left;
+}
+
+
+#Section2 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 15px 2%;
+	width: 47%;
+	height: 153px;
+	float: left;
+}
+
+#Section3 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 96%;
+	height: 153px;
+	clear: both;
+}
+
+#Title1 {
+	background-color: grey;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title2 {
+	background-color: #0090FF;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title3 {
+	background-color: red;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+}
+
+.Content {
+	clear: both;
+	padding: 10px 10px 10px 10px;
+	height: 116px;
+	overflow: hidden;
+
+}
+}
+
+/******Small Divice****/
+
+@media (max-width: 767px){
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #0000FF;
+	margin:  10px 0 30px 0;
+}
+
+#Section1 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 15px 2%;
+	width: 96%;
+	height: 153px;
+	float: left;
+}
+
+
+#Section2 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 15px 2%;
+	width: 96%;
+	height: 153px;
+	float: left;
+}
+
+#Section3 {
+	background-color: #00FFFF;
+	border: 1px solid #000000;
+	margin: 0 0 0 2%;
+	width: 96%;
+	height: 153px;
+	clear: both;
+}
+
+#Title1 {
+	background-color: grey;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title2 {
+	background-color: #0090FF;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+	
+}
+#Title3 {
+	background-color: red;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	border: 1px solid #000000;
+	float: right;
+}
+
+.Content {
+	clear: both;
+	padding: 10px 10px 10px 10px;
+	height: 116px;
+	overflow: hidden;
+
+}
+
+}
