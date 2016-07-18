@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 }
 
-.navbar-brand p {
+.navbar-brand {
 	font-size: 30px;
 	color: grey;
 }
@@ -21,18 +21,23 @@
 #nav-list a:hover {
 	background: blue;
 }
+.panel-footer {
+	background-color: #222;
+	color: #FFF;
+	clear: both;
+	margin-top: 15px;
+
+}
+
+@media (min-width: 992px) {
 
 
-
-@media (min-width: 992px){
-
-
-h1 {
+/**h1 {
 	font-size: 50px;
 	text-align: center;
 	color: #0000FF;
 	margin:  10px 0 30px 0;
-}
+}**/
 
 #Section1 {
 	background-color: #00FFFF;
@@ -56,7 +61,7 @@ h1 {
 #Section3 {
 	background-color: #00FFFF;
 	border: 1px solid #000000;
-	margin: 0 0 0 2%;
+	margin: 0 0 15px 2%;
 	width: 31%;
 	height: 153px;
 	float: left;
@@ -105,12 +110,12 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 991px){
 
-h1 {
+/**h1 {
 	font-size: 50px;
 	text-align: center;
 	color: #0000FF;
 	margin:  10px 0 30px 0;
-}
+}**/
 
 #Section1 {
 	background-color: #00FFFF;
@@ -177,17 +182,20 @@ h1 {
 	overflow: hidden;
 
 }
+#footer3 {
+	margin: 15px ;
+}
 }
 
 /******Small Divice****/
 
 @media (max-width: 767px){
-h1 {
+/**h1 {
 	font-size: 50px;
 	text-align: center;
 	color: #0000FF;
 	margin:  10px 0 30px 0;
-}
+}**/
 
 #Section1 {
 	background-color: #00FFFF;
