@@ -2,6 +2,18 @@
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
 //
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    for (i=0; i<names.length; i++ ){
+    var firstLetter = names[i].charAt(0).toLowerCase();
+      if (firstLetter == "j") {
+        byeSpeaker.speak(names[i]);
+      } else {
+        helloSpeaker.speak(names[i]);
+      }
+    };
+
+
 // Module 4 Assignment Instructions.
 //
 // The idea of this assignment is to take an existing array of names
@@ -34,20 +46,14 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-helloSpeaker.speak();
-byeSpeaker.speak();
+
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (var i = 0; i < names.length; i++) {
-  console.log(window + names[i]);
 
-  
-}
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
